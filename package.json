@@ -1,0 +1,42 @@
+{
+  "name": "react-bar-loader",
+  "version": "1.0.0",
+  "description": "Bar loader React component",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "prepublish": "npm run build",
+    "release": "np"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forde/react-bar-loader.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "loader",
+    "preloader"
+  ],
+  "author": "@forde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forde/react-bar-loader/issues"
+  },
+  "homepage": "https://github.com/forde/react-bar-loader#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "np": "^2.18.2",
+    "watch": "^1.0.2"
+  }
+}
