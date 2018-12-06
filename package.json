@@ -4,7 +4,7 @@
   "description": "Bar loader React component",
   "main": "build/index.js",
   "peerDependencies": {
-    "react": "^15.5.4"
+    "react": ">=15.5.4"
   },
   "dependencies": {
     "react": "^16.2.0",
